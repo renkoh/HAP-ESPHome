@@ -21,7 +21,7 @@ LightEntity = homekit_ns.class_('LightEntity')
 SensorEntity = homekit_ns.class_('SensorEntity')
 SwitchEntity = homekit_ns.class_('SwitchEntity')
 LockEntity = homekit_ns.class_('LockEntity')
-LockEntity = homekit_ns.class_('ClimateEntity')
+ClimateEntity = homekit_ns.class_('ClimateEntity')
 OnHkSuccessTrigger = homekit_ns.class_(
     "HKAuthTrigger", automation.Trigger.template(cg.std_string, cg.std_string)
 )
